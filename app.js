@@ -6,7 +6,6 @@ const productsData = [
   { id: 1, name: "Product 1", category: "Category A", price: 10, rating: 4, image: "https://via.placeholder.com/150" },
   { id: 2, name: "Product 2", category: "Category B", price: 15, rating: 5, image: "https://via.placeholder.com/150" },
   { id: 3, name: "Product 3", category: "Category A", price: 20, rating: 3, image: "https://via.placeholder.com/150" },
-  // Add more products as needed
 ];
 
 function App() {
@@ -40,7 +39,6 @@ function App() {
               <option value="">All Categories</option>
               <option value="Category A">Category A</option>
               <option value="Category B">Category B</option>
-              {/* Add more categories as needed */}
             </select>
           </div>
         </nav>
@@ -68,3 +66,4 @@ function App() {
 }
 
 export default App;
+
